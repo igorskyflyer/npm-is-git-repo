@@ -124,27 +124,27 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 <br>
 
-[@igor.dvlpr/windev](https://www.npmjs.com/package/@igor.dvlpr/windev)
-
-> _🍃 Provides ways of checking whether a path is a legacy Windows device. 💾_
-
-<br>
-
 [@igor.dvlpr/git-repo-url](https://www.npmjs.com/package/@igor.dvlpr/git-repo-url)
 
-> _🌐 Gets the origin URL of the current, local Git repository. 🗺️_
-
-<br>
-
-[@igor.dvlpr/chars-in-string](https://www.npmjs.com/package/@igor.dvlpr/chars-in-string)
-
-> _🪐 Provides ways of testing whether an array of chars is present inside a given String. ☄_
+> _🌐 Gets the origin URL a local Git repository. 🗺️_
 
 <br>
 
 [@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
 
 > _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
+
+<br>
+
+[@igor.dvlpr/str-is-in](https://www.npmjs.com/package/@igor.dvlpr/str-is-in)
+
+> _🧵 Provides ways of checking whether a String is present in an Array of Strings using custom Comparators. 🔍_
+
+<br>
+
+[@igor.dvlpr/chars-in-string](https://www.npmjs.com/package/@igor.dvlpr/chars-in-string)
+
+> _🪐 Provides ways of testing whether an array of chars is present inside a given String. ☄_
 
 ---
 
