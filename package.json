@@ -1,6 +1,6 @@
 {
     "name": "@igor.dvlpr/is-git-repo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🐸 Checks if a directory is a local Git repository. 🕶️",
     "sideEffects": false,
     "engines": {
