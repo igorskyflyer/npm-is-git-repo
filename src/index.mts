@@ -1,6 +1,6 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
-import { execute, executeSync } from '@igor.dvlpr/simple-exec'
+import { executeSync } from '@igor.dvlpr/simple-exec'
 import type { ExecResult } from '@igor.dvlpr/simple-exec/dist/ExecResult.mjs'
 import { existsSync } from 'node:fs'
 
@@ -19,25 +19,7 @@ interface IOptions {
  * @since v1.0.0
  */
 export async function isGitRepo(options?: IOptions): Promise<boolean> {
-  const directory: string = options?.directory ?? '.'
-
-  if (typeof directory !== 'string' || directory.length === 0) {
-    throw new Error('Invalid directory path.')
-  }
-
-  if (directory.length > 1 && !existsSync(directory)) {
-    throw new Error('The directory does not exist.')
-  }
-
-  try {
-    const result: string = await execute(
-      `git -C ${directory} rev-parse --is-inside-work-tree`
-    )
-
-    return result === 'true'
-  } catch {
-    return false
-  }
+  return Promise.resolve(isGitRepoSync(options))
 }
 
 /**
