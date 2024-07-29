@@ -61,6 +61,34 @@ npm i '@igor.dvlpr/is-git-repo'
 
 ## 🤹🏼 API
 
+### `isGitRepo(options?): Promise<string>`
+
+*Asynchronously checks if a local directory is a Git repository.*  
+ 
+`options` - Optional object with options:
+  - `directory` - Sets the current working directory, otherwise the current directory will be used instead.
+
+<br>
+
+Will throw an error if the passed directory is not valid or does not exist.  
+
+Returns a Boolean indicating whether provided local directory is a Git repository.
+
+---
+
+### `isGitRepoSync(options?): Promise<string>`
+
+*Synchronously checks if a local directory is a Git repository.*  
+ 
+`options` - Optional object with options:
+  - `directory` - Sets the current working directory, otherwise the current directory will be used instead.
+
+<br>
+
+Will throw an error if the passed directory is not valid or does not exist.  
+
+Returns a Boolean indicating whether provided local directory is a Git repository.
+
 ---
 
 ## ✨ Examples
@@ -88,25 +116,33 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/vscode-folderpicker](https://www.npmjs.com/package/@igor.dvlpr/vscode-folderpicker)
 
-> __
+> _✨ Provides a custom Folder Picker API + UI for Visual Studio Code. 🎨_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/windev](https://www.npmjs.com/package/@igor.dvlpr/windev)
 
-[]()
+> _🍃 Provides ways of checking whether a path is a legacy Windows device. 💾_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/git-repo-url](https://www.npmjs.com/package/@igor.dvlpr/git-repo-url)
 
-> __
+> _🌐 Gets the origin URL of the current, local Git repository. 🗺️_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/chars-in-string](https://www.npmjs.com/package/@igor.dvlpr/chars-in-string)
+
+> _🪐 Provides ways of testing whether an array of chars is present inside a given String. ☄_
+
+<br>
+
+[@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
+
+> _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
 
 ---
 
