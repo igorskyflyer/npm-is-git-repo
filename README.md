@@ -67,8 +67,9 @@ npm i '@igor.dvlpr/is-git-repo'
 
 `example.ts`
 ```ts
-import {  } from '@igor.dvlpr/is-git-repo'
+import { isGitRepoSync } from '@igor.dvlpr/is-git-repo'
 
+console.log(isGitRepoSync({ directory: '../my-git-project' })) // true
 ```
 
 ---
