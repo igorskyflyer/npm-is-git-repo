@@ -40,8 +40,8 @@
 
 - [Usage](#-usage)
 - [API](#-api)
-  - [isGitRepo()](#isgitrepooptions-promisestring)
-  - [isGitRepoSync()](#isgitreposyncoptions-string)
+  - [isGitRepo()](#isgitrepooptions-promiseboolean)
+  - [isGitRepoSync()](#isgitreposyncoptions-boolean)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)
@@ -63,7 +63,7 @@ npm i '@igor.dvlpr/is-git-repo'
 
 ## 🤹🏼 API
 
-### `isGitRepo(options?): Promise<string>`
+### `isGitRepo(options?): Promise<boolean>`
 
 *Asynchronously checks if a local directory is a Git repository.*  
  
@@ -78,7 +78,7 @@ Returns a Boolean indicating whether provided local directory is a Git repositor
 
 ---
 
-### `isGitRepoSync(options?): string`
+### `isGitRepoSync(options?): boolean`
 
 *Synchronously checks if a local directory is a Git repository.*  
  
