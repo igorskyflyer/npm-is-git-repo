@@ -1,7 +1,7 @@
 {
-    "name": "@igor.dvlpr/$pkg",
+    "name": "@igor.dvlpr/is-git-repo",
     "version": "1.0.0",
-    "description": "$desc",
+    "description": "🐸 Checks if a directory is a local Git repository. 🕶️",
     "sideEffects": false,
     "engines": {
         "node": ">=20.0"
@@ -16,23 +16,38 @@
         "debug": "vitest",
         "pub": "npm test && npm run build && npm publish --access public"
     },
-    "keywords": [$tags, "igorskyflyer", "igor.dvlpr"],
+    "keywords": [
+        "directory",
+        "folder",
+        "git",
+        "svc",
+        "check",
+        "local",
+        "fs",
+        "repo",
+        "repository",
+        "igorskyflyer",
+        "igor.dvlpr"
+    ],
     "license": "MIT",
     "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
     "funding": "https://ko-fi.com/igorskyflyer",
-    "homepage": "https://github.com/igorskyflyer/$repo",
+    "homepage": "https://github.com/igorskyflyer/npm-is-git-repo",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/igorskyflyer/$repo.git"
+        "url": "git+https://github.com/igorskyflyer/npm-is-git-repo.git"
     },
     "bugs": {
-        "url": "https://github.com/igorskyflyer/$repo/issues"
+        "url": "https://github.com/igorskyflyer/npm-is-git-repo/issues"
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
-        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.0",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.1",
         "@types/node": "^20.14.13",
         "typescript": "^5.5.4",
         "vitest": "^2.0.4"
+    },
+    "dependencies": {
+        "@igor.dvlpr/simple-exec": "^1.0.0"
     }
 }
