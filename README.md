@@ -40,6 +40,8 @@
 
 - [Usage](#-usage)
 - [API](#-api)
+  - [isGitRepo()](#isgitrepooptions-promisestring)
+  - [isGitRepoSync()](#isgitreposyncoptions-string)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)
@@ -76,7 +78,7 @@ Returns a Boolean indicating whether provided local directory is a Git repositor
 
 ---
 
-### `isGitRepoSync(options?): Promise<string>`
+### `isGitRepoSync(options?): string`
 
 *Synchronously checks if a local directory is a Git repository.*  
  
