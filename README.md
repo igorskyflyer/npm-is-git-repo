@@ -1,9 +1,9 @@
-<h1 align="center">$project</h1>
+<h1 align="center">Is Git repo</h1>
 
 <br>
 
 <div align="center">
-  $desc
+  🐸 Checks if a directory is a local Git repository. 🕶️
 </div>
 
 <br>
@@ -54,7 +54,7 @@
 Install it by executing:
 
 ```shell
-npm i '@igor.dvlpr/$pkg'
+npm i '@igor.dvlpr/is-git-repo'
 ```
 
 <br>
@@ -67,7 +67,7 @@ npm i '@igor.dvlpr/$pkg'
 
 `example.ts`
 ```ts
-import {  } from '@igor.dvlpr/$pkg'
+import {  } from '@igor.dvlpr/is-git-repo'
 
 ```
 
@@ -75,13 +75,13 @@ import {  } from '@igor.dvlpr/$pkg'
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/$repo/blob/main/CHANGELOG.md).
+📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-is-git-repo/blob/main/CHANGELOG.md).
 
 ---
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/$repo/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-is-git-repo/blob/main/LICENSE).
 
 ---
 
