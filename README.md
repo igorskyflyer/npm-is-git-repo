@@ -54,9 +54,9 @@
 
 ## 🤖 Features
 
--
--
--
+- 🔍 checks if a directory is a Git repo
+- ⌚ both async and sync methods supported
+- 👽 cross-platform
 
 ---
 
