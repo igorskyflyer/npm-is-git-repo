@@ -59,6 +59,8 @@
 > If not, it needs to be installed first.
 >
 
+<br>
+
 Install the module by executing:
 
 ```shell
