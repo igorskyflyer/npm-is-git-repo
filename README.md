@@ -1,4 +1,4 @@
-<h1 align="center">Is Git repo</h1>
+<h1 align="center">Is Git repo?</h1>
 
 <br>
 
@@ -38,6 +38,7 @@
 
 ## 📃 Table of contents
 
+- [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [isGitRepo()](#isgitrepooptions-promiseboolean)
@@ -50,6 +51,14 @@
 
 <br>
 <br>
+
+## 🤖 Features
+
+-
+-
+-
+
+---
 
 ## 🕵🏼 Usage
 
@@ -67,7 +76,7 @@ Install the module by executing:
 npm i '@igor.dvlpr/is-git-repo'
 ```
 
-<br>
+---
 
 ## 🤹🏼 API
 
@@ -103,7 +112,7 @@ Returns a Boolean indicating whether provided local directory is a Git repositor
 
 ## ✨ Examples
 
-`example.ts`
+`example.mts`
 ```ts
 import { isGitRepoSync } from '@igor.dvlpr/is-git-repo'
 
@@ -156,7 +165,5 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ---
 
-<br>
-
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
