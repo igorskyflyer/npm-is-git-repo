@@ -1,7 +1,7 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
+import type { ExecResult } from '@igor.dvlpr/simple-exec'
 import { executeSync } from '@igor.dvlpr/simple-exec'
-import type { ExecResult } from '@igor.dvlpr/simple-exec/dist/ExecResult.mjs'
 import { existsSync } from 'node:fs'
 
 interface IOptions {
