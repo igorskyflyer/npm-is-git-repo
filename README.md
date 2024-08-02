@@ -53,7 +53,13 @@
 
 ## 🕵🏼 Usage
 
-Install it by executing:
+> [!WARNING]
+> This module requires that the [`git`](https://git-scm.com) executable is installed and available in the system path.
+>
+> If not, it needs to be installed first.
+>
+
+Install the module by executing:
 
 ```shell
 npm i '@igor.dvlpr/is-git-repo'
