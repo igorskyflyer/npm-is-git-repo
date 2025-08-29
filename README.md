@@ -1,50 +1,27 @@
-<h1 align="center">Is Git repo?</h1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-is-git-repo/main/media/is-git-repo.png" alt="Icon of Is Git Repo" width="256" height="256">
+  <h1>Is Git Repo</h1>
+</div>
 
 <br>
 
-<div align="center">
+<h4 align="center">
   🐸 Checks if a directory is a local Git repository. 🕶️
-</div>
+</h4>
 
 <br>
 <br>
 
-<div align="center">
-  <blockquote>
-    <br>
-    <h4>💖 Support further development</h4>
-    <span>I work hard for every project, including this one
-    <br>
-    and your support means a lot to me!
-    <br>
-    <br>
-    Consider buying me a coffee. ☕
-    <br>
-    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-    <br>
-    <br>
-    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-    <br>
-    <br>
-    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-    <br>
-    <br>
-    <br>
-  </blockquote>
-</div>
-
-<br>
-<br>
-
-## 📃 Table of contents
+## 📃 Table of Contents
 
 - [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [isGitRepo()](#isgitrepooptions-promiseboolean)
   - [isGitRepoSync()](#isgitreposyncoptions-boolean)
-- [Examples](#-examples)
+- [Examples](#️-examples)
 - [Changelog](#-changelog)
+- [Support](#-support)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)
@@ -54,30 +31,46 @@
 
 ## 🤖 Features
 
-- 🔍 checks if a directory is a Git repo
-- ⌚ both async and sync methods supported
-- 👽 cross-platform
-- ⚖️ lightweight
+- ⚡ Async & sync checks — verify Git repo status your way
+- 📂 Custom directory — point to any folder, not just the current one
+- 🛡 Input validation — catches invalid or missing paths early
+- 🚫 Existence check — errors if the directory doesn’t exist
+- 🖥 Direct Git command — uses git rev-parse for accurate detection
+- ✅ Boolean result — simple true/false output for easy logic flow
+- 🧩 Error-safe — gracefully handles Git errors without crashing
+- 🪶 Lightweight dependency — minimal overhead, fast execution 
 
----
+<br>
+<br>
 
-## 🕵🏼 Usage
-
-> [!WARNING]
+> ⚠️ **WARNING**
+>
 > This module requires that the [`git`](https://git-scm.com) executable is installed and available in the system path.
 >
 > If not, it needs to be installed first.
 >
 
 <br>
+<br>
 
-Install the module by executing:
+## 🕵🏼 Usage
 
-```shell
-npm i '@igor.dvlpr/is-git-repo'
+Install it by executing any of the following, depending on your preferred package manager:
+
+```bash
+pnpm add @igorskyflyer/is-git-repo
 ```
 
----
+```bash
+yarn add @igorskyflyer/is-git-repo
+```
+
+```bash
+npm i @igorskyflyer/is-git-repo
+```
+
+<br>
+<br>
 
 ## 🤹🏼 API
 
@@ -109,62 +102,86 @@ Will throw an error if the passed directory is not valid or does not exist.
 
 Returns a Boolean indicating whether provided local directory is a Git repository.
 
----
+<br>
+<br>
 
-## ✨ Examples
+## 🗒️ Examples
 
-`example.mts`
+`example.ts`
 ```ts
-import { isGitRepoSync } from '@igor.dvlpr/is-git-repo'
+import { isGitRepoSync } from '@igorskyflyer/is-git-repo'
 
 console.log(isGitRepoSync({ directory: '../my-git-project' })) // true
 ```
 
----
+<br>
+<br>
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-is-git-repo/blob/main/CHANGELOG.md).
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-is-git-repo/blob/main/CHANGELOG.md).
 
----
+<br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-is-git-repo/blob/main/LICENSE).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/vscode-folderpicker](https://www.npmjs.com/package/@igor.dvlpr/vscode-folderpicker)
+[@igorskyflyer/vscode-folderpicker](https://www.npmjs.com/package/@igorskyflyer/vscode-folderpicker)
 
 > _✨ Provides a custom Folder Picker API + UI for Visual Studio Code. 🎨_
 
 <br>
 
-[@igor.dvlpr/git-repo-url](https://www.npmjs.com/package/@igor.dvlpr/git-repo-url)
+[@igorskyflyer/git-repo-url](https://www.npmjs.com/package/@igorskyflyer/git-repo-url)
 
 > _🌐 Gets the origin URL a local Git repository. 🗺️_
 
 <br>
 
-[@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
+[@igorskyflyer/is-rootdir](https://www.npmjs.com/package/@igorskyflyer/is-rootdir)
 
 > _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
 
 <br>
 
-[@igor.dvlpr/str-is-in](https://www.npmjs.com/package/@igor.dvlpr/str-is-in)
+[@igorskyflyer/str-is-in](https://www.npmjs.com/package/@igorskyflyer/str-is-in)
 
 > _🧵 Provides ways of checking whether a String is present in an Array of Strings using custom Comparators. 🔍_
 
 <br>
 
-[@igor.dvlpr/chars-in-string](https://www.npmjs.com/package/@igor.dvlpr/chars-in-string)
+[@igorskyflyer/chars-in-string](https://www.npmjs.com/package/@igorskyflyer/chars-in-string)
 
 > _🪐 Provides ways of testing whether an array of chars is present inside a given String. ☄_
 
----
+
+<br>
+<br>
+<br>
 
 ## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
