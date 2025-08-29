@@ -1,7 +1,7 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
 import { assert, describe, expect, suite, test } from 'vitest'
-import { isGitRepo, isGitRepoSync } from '../src/index.mts'
+import { isGitRepo, isGitRepoSync } from '../src/index.ts'
 
 describe('🧪 Is Git repo tests tests 🧪', () => {
   suite('isGitRepoSync()', () => {
