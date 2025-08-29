@@ -1,29 +1,30 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/is-git-repo](https://github.com/igorskyflyer/npm-is-git-repo)
+### of [@igorskyflyer/is-git-repo](https://github.com/igorskyflyer/npm-is-git-repo)
 
 <br>
 
-## v1.0.2
+## v1.1.0 (*29-Aug-2025*)
 
-<p align="right"><em>02-Aug-2024</em></p>
+- **💻 dev**: upgrade Node to >= v22
+- **💻 dev**: upgrade dependencies
+
+<br>
+
+## v1.0.2 (*02-Aug-2024*)
 
 - **📜 docs**: fix docs
 
 <br>
 <br>
 
-## v1.0.1
-
-<p align="right"><em>29-Jul-2024</em></p>
+## v1.0.1 (*29-Jul-2024*)
 
 - **📜 docs**: fix docs
 
 <br>
 <br>
 
-## v1.0.0
-
-<p align="right"><em>29-Jul-2024</em></p>
+## v1.0.0 (*29-Jul-2024*)
 
 - **🚀 launch**: initial release 🎉
