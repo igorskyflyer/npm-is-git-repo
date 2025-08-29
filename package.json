@@ -15,9 +15,9 @@
     ],
     "scripts": {
         "build": "tsc",
-        "test": "vitest --run",
         "make-git": "node ./scripts/make-git.js",
-        "pub": "pnpm run make-git && pnpm test && git push origin main --tags"
+        "test": "pnpm run make-git && vitest --run",
+        "pub": "pnpm test && git push origin main --tags"
     },
     "keywords": [
         "directory",
